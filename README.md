@@ -16,10 +16,10 @@ Pre-requisites:
 - Note: Bing Search will be retired in August 2025. Plan for alternative services.
  
 
-Deployment Steps
+Deployment Steps as below:
  
 
-1. Deploy Required AOAI Models
+1. Deploy Required AOAI Models:
  
 
 In Azure AI Foundry /OpenAI → Deployments, ensure the following models are deployed (in the Sweden Central Region, or your relevant region):
@@ -28,7 +28,7 @@ In Azure AI Foundry /OpenAI → Deployments, ensure the following models are dep
 - Note the deployment names; you’ll need them in the notebooks.
  
 
-2. Set Up Your Environment
+2. Set Up Your Environment:
  
 
 - Open Azure Machine Learning Studio
@@ -37,20 +37,20 @@ In Azure AI Foundry /OpenAI → Deployments, ensure the following models are dep
 - Open the Terminal
  
 
-3. Clone the Repository
+3. Clone the Repository:
  
 git clone https://github.com/naveed1351/AzureOpenAI_Advanced_Prompt_Engineering.git 
 cd AzureOpenAI_Advanced_Prompt_Engineering  
  
 
-4. Prepare Python Environment
+4. Prepare Python Environment:
  
 - Use Python 3.10 (recommended with Conda):
 
 - conda activate azureml_py310_sdkv2  
 
 
-5. Install Dependencies
+5. Install Dependencies:
  
 
 - pip install -r ./common/requirements.txt  
@@ -58,9 +58,7 @@ cd AzureOpenAI_Advanced_Prompt_Engineering
 - Ensure you install dependencies in the same environment you’ll use for the notebooks.
  
 
-6. Configure Credentials
- 
-Edit the credentials.env file with your values:
+6. Configure Credentials: Edit the credentials.env file with your values:
 
 - AZURE_OPENAI_ENDPOINT
 - AZURE_OPENAI_API_KEY
@@ -73,10 +71,7 @@ Edit the credentials.env file with your values:
 (Find these in Azure Portal → Azure OpenAI Resource → Keys and Endpoint.) For Specific Chat model, you can find the endpoint and keys in the AI Foundry.
  
 
-7. (Optional) Create Bing Resource
- 
-
-Note: Bing Search will be retired August 2025.
+7. (Optional) Create Bing Resource: Note: Bing Search will be retired August 2025.
 
 
 Go to Azure Portal → Bing Resources → Add ‘Bing Search’ → Review and Create
