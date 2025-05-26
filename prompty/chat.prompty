@@ -6,7 +6,7 @@ model:
     configuration:
         type: azure_openai
         connection: my_azure_open_ai_connection
-        azure_deployment: gpt-4-0125-Preview
+        azure_deployment: gpt-4o
     parameters:
         max_tokens: 256
         temperature: 0.2
