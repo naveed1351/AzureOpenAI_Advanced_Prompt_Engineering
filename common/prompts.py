@@ -1,6 +1,6 @@
 from langchain_core.prompts import PromptTemplate, ChatPromptTemplate, MessagesPlaceholder, HumanMessagePromptTemplate
 
-####### Welcome Message for the Bot Service #################
+####### Welcome Message for the Bot Service Below #################
 WELCOME_MESSAGE = """
 Hello and welcome! \U0001F44B
 
@@ -24,7 +24,7 @@ From all of my sources, I will provide the necessary information and also mentio
 To make the most of my capabilities, please mention the specific tool you'd like me to use when asking your question. Here's an example:
 
 ```
-bing, who is the daughter of the President of India?
+bing, who is the daughter of the President of USA?
 chatgpt, how can I read a remote file from a URL using pandas?
 docsearch, Does chloroquine really works against covid?
 booksearch, tell me the legend of the stolen kidney in the book "Made To Stick"
